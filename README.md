@@ -1,50 +1,89 @@
-# Welcome to your Expo app 👋
+# 🎮 Speedcube Battle
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Une application de chronométrage pour speedcubing avec support multi-joueurs, modes avancés et interface personnalisable.
 
-## Get started
+## ✨ Fonctionnalités
 
-1. Install dependencies
+### 🏁 Chronométrage
 
-   ```bash
-   npm install
-   ```
+- **Double chronomètre** pour 2-4 joueurs
+- **Même scramble** pour tous les joueurs
+- **Système de pénalités** (+2, DNF)
+- **Scores automatiques** avec calcul du gagnant
 
-2. Start the app
+### 🧩 Types de Cubes
 
-   ```bash
-   npx expo start
-   ```
+- **2x2, 3x3, 4x4** - Cubes standards
+- **Pyraminx, Skewb** - Cubes WCA populaires
+- **Clock, Square-1** - Cubes WCA avancés
+- **Blindfold** - Scramble 3BLD officiel
+- **Scrambles WCA** conformes aux standards officiels
 
-In the output, you'll find options to open the app in a
+### 🎯 Modes de Jeu
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- **Mode Normal** - Chronométrage classique
+- **Mode Blind** - Cache les temps pendant le solve
+- **Mode Best Of** - BO3/5/7/9 avec score de match
+- **Mode Non Cuber** - Chronos seulement, sans scrambles
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+### 🎨 Personnalisation
 
-## Get a fresh project
+- **Thèmes de couleur** (Défaut, Bleu, Violet, Orange, Rouge, Rose)
+- **Mode Full Black** - Interface entièrement noire
+- **Support 2-4 joueurs** avec layouts adaptatifs
 
-When you're ready, run:
+### 💖 Soutien
 
-```bash
-npm run reset-project
-```
+- **Écran dédié** pour soutenir le développement
+- **Popup périodique** après usage régulier
+- **Lien PayPal** pour contribuer à la publication sur Google Play
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## 🎯 Utilisation
 
-## Learn more
+### Démarrage Rapide
 
-To learn more about developing your project with Expo, look at the following resources:
+1. **Choisir un cube** dans l'onglet "Cubes"
+2. **Configurer les options** (nombre de joueurs, thème, etc.)
+3. **Commencer le battle** dans l'onglet "Battle"
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+### Chronométrage
 
-## Join the community
+- **Maintenir** le chrono pour le préparer (devient vert)
+- **Relâcher** pour démarrer
+- **Taper** pour arrêter
+- **Sélectionner** la pénalité si nécessaire
 
-Join our community of developers creating universal apps.
+### Modes Avancés
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+- **Mode Blind** : Les temps sont cachés pendant le solve
+- **Mode Best Of** : Premier à gagner X rounds remporte le match
+- **Mode Non Cuber** : Interface simplifiée sans scrambles
+
+## 🎨 Personnalisation
+
+### Thèmes de Couleur
+
+- Accédez à **Options > Thème de couleur**
+- Choisissez parmi 6 thèmes disponibles
+- Le thème s'applique à toute l'application
+
+### Layout Multi-Joueurs
+
+- **2 joueurs** : Layout classique
+- **3 joueurs** : 1 en haut, 2 en bas
+- **4 joueurs** : 2 en haut, 2 en bas
+
+5. **Ouvrir** une Pull Request
+
+## 📄 Licence
+
+Ce projet est sous licence MIT. Voir le fichier `LICENSE` pour plus de détails.
+
+## 📞 Support
+
+- **Email** : thomas.lekieffredev@gmail.com
+- **PayPal** : [Soutenir le développement](https://paypal.me/Tlekieffredev)
+
+---
+
+**Made with 💖 by DrPepper Speedcube Master Studio**
