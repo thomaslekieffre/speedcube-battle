@@ -42,7 +42,7 @@ Une application de chronométrage pour speedcubing avec support multi-joueurs, m
 
 ### APK Direct
 
-**[⬇️ Télécharger l'APK](https://expo.dev/accounts/drpepper59/projects/speedcube-battle/builds/e95658ee-d792-46ad-8b2e-745ffc8bf1c4)**
+**[⬇️ Télécharger l'APK](https://drive.google.com/drive/folders/1RhMgwz_bVdVs5HooINvumCi6LJB_glba?usp=sharing)**
 
 _Installez l'APK sur votre appareil Android pour utiliser l'application_
 
